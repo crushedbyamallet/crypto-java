@@ -10,10 +10,10 @@ o servidor gera um par de chaves (**pública e privada**) para criptografar e de
 ### **troca de chaves:**
 o cliente e o servidor trocam suas chaves públicas para permitir a **criptografia mútua**.
 
-### **criptografia de Mensagens:**
+### **criptografia de mensagens:**
 as mensagens enviadas pelo cliente são **criptografadas com a chave pública do servidor** antes de serem transmitidas.
 
-### **decifragem de Mensagens:**
+### **decifragem de mensagens:**
 o servidor **decifra as mensagens** recebidas usando sua chave privada e vice-versa.
 
 ## estrutura do projeto
@@ -74,10 +74,7 @@ essa imagem mostra a execução de um programa java que implementa criptografia 
 - **chave pública:** **e = 7** é o expoente da chave pública, escolhido por ser pequeno e coprimo ao totiente **φ(n)**. esse valor deve garantir que a inversa multiplicativa **d** possa ser calculada.
 - **chave privada:** **d = 1183** é o inverso multiplicativo de **e** módulo **φ(n)**. essa chave é usada para decifrar as mensagens.
 
-
-
 ![image](https://github.com/user-attachments/assets/8290f763-b341-4adc-9b97-b8bc22f909c9)
-
 
 ### mensagem cifrada e decifrada:
 a string "lesgoooo" foi convertida em valores numéricos e criptografada com (**e**, **n**). a mensagem foi corretamente decifrada usando a **chave privada (d)**, demonstrando a funcionalidade do RSA e assegurando a confidencialidade.
@@ -92,8 +89,8 @@ a string "lesgoooo" foi convertida em valores numéricos e criptografada com (**
 optamos pelo IntelliJ para este projeto devido às suas características que facilitam o desenvolvimento em java, especialmente em aplicações de criptografia e comunicação em rede.
 
 principais Vantagens:
-- **autocompletar e inteligência:** A IDE oferece autocompletar avançado, ajudando a reduzir erros e acelerar o desenvolvimento.
-- **suporte ao java:** O IntelliJ possui suporte robusto para Java, com recursos de refatoração e navegação de código que facilitam a manutenção.
-- **depuração eficiente:** O depurador poderoso permite rastrear e corrigir erros de forma eficaz, essencial para algoritmos de criptografia.-
-- **integração com controle de versão:** A IDE se integra facilmente com Git, facilitando o trabalho em equipe.
+- **autocompletar e inteligência:** oferece autocompletar avançado, ajudando a reduzir erros e acelerar o desenvolvimento.
+- **suporte ao java:** esse editor de código possui suporte robusto para Java, com recursos de refatoração e navegação de código que facilitam a manutenção.
+- **depuração eficiente:** o depurador poderoso permite rastrear e corrigir erros de forma eficaz, essencial para algoritmos de criptografia.-
+- **integração com controle de versão:** a IDE se integra facilmente com git, facilitando o trabalho em equipe.
 
