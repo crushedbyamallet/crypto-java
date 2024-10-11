@@ -65,7 +65,7 @@ essa mensagem foi então criptografada utilizando a **chave pública** e o **mó
 
 ![RSA_EC_VALORES](https://github.com/user-attachments/assets/f9631da0-aa27-4d6b-9e4d-448fde588871)
 
-essa imagem mostra a execução de um programa Java que implementa criptografia RSA usando os seguintes valores:
+essa imagem mostra a execução de um programa java que implementa criptografia RSA usando os seguintes valores:
 
 ### valores iniciais:
 
@@ -73,6 +73,11 @@ essa imagem mostra a execução de um programa Java que implementa criptografia 
 - **módulo:** **n = 2867** é a multiplicação de **p** e **q** (**n = p × q**) e é utilizado na chave pública, sendo essencial para a criptografia e descriptografia.
 - **chave pública:** **e = 7** é o expoente da chave pública, escolhido por ser pequeno e coprimo ao totiente **φ(n)**. esse valor deve garantir que a inversa multiplicativa **d** possa ser calculada.
 - **chave privada:** **d = 1183** é o inverso multiplicativo de **e** módulo **φ(n)**. essa chave é usada para decifrar as mensagens.
+
+
+
+![image](https://github.com/user-attachments/assets/8290f763-b341-4adc-9b97-b8bc22f909c9)
+
 
 ### mensagem cifrada e decifrada:
 a string "lesgoooo" foi convertida em valores numéricos e criptografada com (**e**, **n**). a mensagem foi corretamente decifrada usando a **chave privada (d)**, demonstrando a funcionalidade do RSA e assegurando a confidencialidade.
@@ -83,7 +88,7 @@ a string "lesgoooo" foi convertida em valores numéricos e criptografada com (**
 - **mensagem decifrada:** **"lesgoooo".**
   - a mensagem foi corretamente decifrada, indicando que o processo de criptografia RSA funcionou conforme o esperado.
 
-### intelliJ IDEA
+## intelliJ IDEA
 optamos pelo IntelliJ para este projeto devido às suas características que facilitam o desenvolvimento em java, especialmente em aplicações de criptografia e comunicação em rede.
 
 principais Vantagens:
