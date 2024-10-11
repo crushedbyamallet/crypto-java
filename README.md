@@ -1,6 +1,6 @@
 # projeto de comunicação segura com criptografia RSA
 
-este repositório contém uma implementação básica de um **cliente e servidor** utilizando **sockets Java** e **criptografia RSA**. o objetivo é demonstrar como estabelecer uma comunicação segura entre um cliente e um servidor, garantindo a **confidencialidade das mensagens** através da criptografia.
+este repositório contém uma implementação básica de um **cliente e servidor** utilizando **sockets java** e **criptografia RSA**. o objetivo é demonstrar como estabelecer uma comunicação segura entre um cliente e um servidor, garantindo a **confidencialidade das mensagens** através da criptografia.
 
 ## funcionalidades
 
@@ -35,7 +35,7 @@ exemplo adicional de implementação de criptografia RSA com números primos.
 
 ## como usar
 
-1. compile o projeto usando um **IDE de Java** ou ferramentas de linha de comando.
+1. compile o projeto usando um **IDE de java** ou ferramentas de linha de comando.
 2. inicie o **servidor (Server)**.
 3. em outra instância, inicie o **cliente (Client)**.
 4. siga as instruções no terminal para **enviar e receber mensagens**.
@@ -49,7 +49,7 @@ exemplo adicional de implementação de criptografia RSA com números primos.
 
 ![RSA CALCULATOR](https://github.com/user-attachments/assets/2f654dcc-d7d0-48e4-b780-f08c4f13bb40)
 
-a imagem acima exibe o uso do simulador **RSA Express Encryption-Decryption Calculator** da **Drexel University**, que foi utilizado para validar o funcionamento do nosso aplicativo de criptografia RSA desenvolvido em Java.
+a imagem acima exibe o uso do simulador **RSA express encryption-decryption calculator** da **drexel university**, que foi utilizado para validar o funcionamento do nosso aplicativo de criptografia RSA desenvolvido em Java.
 
 usamos os seguintes valores:
 
