@@ -82,3 +82,13 @@ a string "lesgoooo" foi convertida em valores numéricos e criptografada com (**
   - a mensagem "lesgoooo" foi convertida para números e criptografada.
 - **mensagem decifrada:** **"lesgoooo".**
   - a mensagem foi corretamente decifrada, indicando que o processo de criptografia RSA funcionou conforme o esperado.
+
+### intelliJ IDEA
+optamos pelo IntelliJ para este projeto devido às suas características que facilitam o desenvolvimento em java, especialmente em aplicações de criptografia e comunicação em rede.
+
+principais Vantagens:
+- **autocompletar e inteligência:** A IDE oferece autocompletar avançado, ajudando a reduzir erros e acelerar o desenvolvimento.
+- **suporte ao java:** O IntelliJ possui suporte robusto para Java, com recursos de refatoração e navegação de código que facilitam a manutenção.
+- **depuração eficiente:** O depurador poderoso permite rastrear e corrigir erros de forma eficaz, essencial para algoritmos de criptografia.-
+- **integração com controle de versão:** A IDE se integra facilmente com Git, facilitando o trabalho em equipe.
+
